@@ -1,16 +1,17 @@
 .quiz-header {
-margin-bottom: 2rem;
-border-bottom: 1px solid var(--cor-borda);
-padding-bottom: 1rem;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 1rem;
+    color: white;
 }
 
 .quiz-header h1 {
-color: var(--cor-primaria);
-font-size: 2.5em;
-margin-bottom: 0.5rem;
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
 }
 
 .quiz-header p {
-color: var(--cor-texto);
-opacity: 0.8;
+    font-size: 25px;
+    opacity: 0.8;
 }
