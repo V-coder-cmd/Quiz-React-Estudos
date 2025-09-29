@@ -1,13 +1,14 @@
-import { useState } from 'react'
+
 import './App.Module.css'
-import Header from './components/Header'
+import Header from './components/Header/index.jsx'
+import QuestionCard from './components/QuestionCard/index.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Header />
+      <QuestionCard />
 
     </>
   )
